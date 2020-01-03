@@ -27,11 +27,11 @@ def IncrementalOTA_InstallEnd(info):
   return
 
 def FullOTA_Assertions(info):
-  AddBasebandAssertion(info)
+  AddBasebandAssertion(info, info.input_zip)
   return
 
 def IncrementalOTA_Assertions(info):
-  AddBasebandAssertion(info)
+  AddBasebandAssertion(info, info.target_zip)
   return
 
 def AddImage(info, basename, dest, incremental):
@@ -53,8 +53,8 @@ def OTA_InstallEnd(info, incremental):
   AddImage(info, "vbmeta.img", "/dev/block/bootdevice/by-name/vbmeta", incremental)
   return
 
-def AddBasebandAssertion(info):
-  android_info = info.input_zip.read("OTA/android-info.txt")
+def AddBasebandAssertion(info, input_zip):
+  android_info = input_zip.read("OTA/android-info.txt")
   m = re.search(r'require\s+version-baseband\s*=\s*(.+)', android_info)
   if m:
     timestamp, firmware_version = m.group(1).rstrip().split(',')
