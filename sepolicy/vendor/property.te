@@ -3,6 +3,13 @@ type thermal_engine_prop, property_type;
 
 # Fingerprint
 type vendor_fp_prop, property_type;
+type sysfs_fps_attr, property_type;
 
 # Mlipay
 type ifaa_prop, property_type;
+
+# Persist
+type persist_sensors_file, property_type;
+
+# Camera
+type vendor_camera_prop, property_type;
