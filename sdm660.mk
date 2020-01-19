@@ -262,7 +262,6 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
-    init.qti.fm.sh \
     init.target.rc \
     init.xiaomi.rc \
     ueventd.qcom.rc \
