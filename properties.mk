@@ -39,16 +39,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.use.sw.alac.decoder=true \
     vendor.audio.use.sw.ape.decoder=true \
     vendor.audio_hal.period_size=192 \
-    vendor.fm.a2dp.conc.disabled=true \
     vendor.voice.path.for.pcm.voip=true \
     vendor.audio.feature.compr_voip.enable=true \
     vendor.audio.feature.kpi_optimize.enable=true \
     vendor.audio.feature.fluence.enable=true \
     vendor.audio.feature.custom_stereo.enable=true \
     vendor.audio.feature.anc_headset.enable=true \
-    vendor.audio.feature.vbat.enabl=true \
-    vendor.audio.feature.fm.enable=true \
-    vendor.hw.fm.init=0
+    vendor.audio.feature.vbat.enabl=true
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
