@@ -46,12 +46,7 @@ PRODUCT_COPY_FILES += \
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
-    libqcomfm_jni \
-    qcom.fmradio \
-    qcom.fmradio.xml
-
-PRODUCT_BOOT_JARS += \
-    qcom.fmradio
+    libqcomfm_jni
 
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl
