@@ -106,7 +106,6 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.1-impl:32 \
     audio.a2dp.default \
     audio_amplifier.sdm660 \
-    audio.primary.sdm660 \
     audio.r_submix.default \
     audio.usb.default \
     libaudio-resampler \
@@ -350,7 +349,8 @@ PRODUCT_COPY_FILES += \
 
 # QMI
 PRODUCT_PACKAGES += \
-    libjson
+    libjson \
+    libqti_vndfwk_detect.vendor
 
 # RCS
 PRODUCT_PACKAGES += \

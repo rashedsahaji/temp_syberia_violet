@@ -83,6 +83,10 @@ vendor/lib64/soundfx/libasphere.so|8b34e5df3f9070cdfead48f064a3135a719503c7
 vendor/lib64/soundfx/libqcbassboost.so|16f6b74db3b24ee82674c40498bcc1b319770b50
 vendor/lib64/soundfx/libqcvirt.so|6c21052f294765efb9188454a78791911da919dd
 
+# Audio - hardware
+vendor/lib/hw/audio.primary.sdm660.so|e7aa40a0cd876bbff02237df36fd04cd6f009437
+vendor/lib64/hw/audio.primary.sdm660.so|0331b0e5e1fbea9071972d25c100f10b28545cb3
+
 # Audio Power Amplifier - from jasmine
 vendor/firmware/dbmd4_va_fw.bin|ee640f9f4e367d513f5fb7d95c85e226c9f75750
 vendor/firmware/tas2557_uCDSP.bin|d16fc1db241670307f5071e256c886ecd18d30f7
